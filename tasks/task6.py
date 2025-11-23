@@ -2,7 +2,7 @@
 
 def solve():
 # Ниже пишите решение задачи
-x, y, z=map(int,input().split())
+    x, y, z=map(int,input().split())
 x = x ** 2
 y = y ** 2
 z = z ** 2

@@ -2,7 +2,7 @@
 
 def solve():
 # Ниже пишите решение задачи
-a = int(input())
+    a = int(input())
 print(10 <= a <= 99)
    
    
