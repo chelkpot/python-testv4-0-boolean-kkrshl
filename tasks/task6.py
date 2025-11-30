@@ -2,11 +2,9 @@
 
 def solve():
 # Ниже пишите решение задачи
-    x, y, z=map(int,input().split())
-x = x ** 2
-y = y ** 2
-z = z ** 2
-print((x + y) == z or (z + y) == x or (x + z) == y)
+    a, b, c = map(int,input().split())
+    result = (a*a == b*b + c*c) or (b*b == a*a + c*c) or (c*c == a*a + b*b)
+    print(result)
    
    
 # Код ниже не трогать! он нужен для тестов
