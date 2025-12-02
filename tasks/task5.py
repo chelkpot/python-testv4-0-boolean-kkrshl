@@ -3,8 +3,8 @@
 def solve():
 # Ниже пишите решение задачи
     a = int(input())
-result = 10 <= a <= 99
-print(result)
+    result = 10 <= a <= 99
+    print(result)
    
    
 # Код ниже не трогать! он нужен для тестов
